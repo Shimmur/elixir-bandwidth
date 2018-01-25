@@ -1,6 +1,10 @@
 /_build
 /deps
 /cover
+.idea
+bandwidth.iml
 erl_crash.dump
 *.ez
 *.coverdata
+
+

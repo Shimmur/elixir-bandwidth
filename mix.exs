@@ -29,8 +29,8 @@ defmodule Bandwidth.Mixfile do
   end
 
   defp deps do
-    [ { :httpoison, "~> 0.13.0" },
-      { :poison, "~> 3.1.0" },
+    [ {:httpoison, "~> 1.0"},
+      {:poison, "~> 3.1"},
       { :dialyze, "~> 0.2.1", only: [:dev, :test] },
       { :ex_spec, "~> 2.0", only: :test },
       { :ex_doc, "~> 0.18.1", only: :dev },
